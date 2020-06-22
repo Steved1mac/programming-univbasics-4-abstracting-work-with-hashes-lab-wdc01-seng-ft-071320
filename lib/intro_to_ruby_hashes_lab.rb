@@ -12,8 +12,9 @@ def update_counting_hash(hash, key)
     hash[key] += 1 
   else
     # the key is not present - add the key and assign it the value of 1
-    hash[key] => 
-  end 
+    hash[key] = 1
+  end
+  hash 
 end 
 
 ##if  hash[key] =+ 1 

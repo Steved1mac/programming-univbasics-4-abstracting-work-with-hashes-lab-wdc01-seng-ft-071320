@@ -7,6 +7,5 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  new_hash = {:key => 1 }
-  return new_hash
+   hash = :key => 1
 end
